@@ -1,11 +1,15 @@
 /* ----ESTILOS GENERALES--- */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 body {
-    margin: 30px;
-    padding: 30px;
-    background-color:#49BAA3 ;
+
+    background-image: linear-gradient(180deg, #bcffb0 0, #a7ffb4 12.5%, #92f5b7 25%, #7ee8b7 37.5%, #6cd8b4 50%, #5dc8b0 62.5%, #51bbac 75%, #49afa8 87.5%, #44a5a6 100%);
     font-family: 'Fredoka', sans-serif;
-    
+
 }
 .btn-neon {
     position: relative;
@@ -25,3 +29,26 @@ body {
     0 0 80px #19A1E1;
     
 }
+
+/* --ENCABEZADO Y BARRA DE NAVEGACION-- */
+
+
+nav {
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    align-self: auto;
+    background-color: #acc1cc;
+    border-style: solid;
+    display: flex;
+    text-align: center;
+    word-spacing: 5vw;
+    
+}
+
+
+
+
+
+
+
